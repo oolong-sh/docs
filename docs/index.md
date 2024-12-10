@@ -8,6 +8,12 @@ hero:
   tagline: My great project tagline
   actions:
     - theme: brand
+      text: What is Oolong?
+      link: /what-is-oolong
+    - theme: alt
+      text: Getting Started
+      link: /getting-started
+    - theme: alt
       text: Markdown Examples
       link: /markdown-examples
     - theme: alt

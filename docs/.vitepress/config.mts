@@ -8,10 +8,18 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
+      { text: "Guide", link: "/what-is-oolong" },
       { text: "Examples", link: "/markdown-examples" },
     ],
 
     sidebar: [
+      {
+        text: "Introduction",
+        items: [
+          { text: "What is Oolong", link: "/what-is-oolong" },
+          { text: "Getting Started", link: "/getting-started" },
+        ],
+      },
       {
         text: "Examples",
         items: [
@@ -21,6 +29,13 @@ export default defineConfig({
       },
     ],
 
-    socialLinks: [{ icon: "github", link: "https://github.com/oolong-sh" }],
+    search: {
+      provider: "local",
+    },
+
+    socialLinks: [
+      { icon: "github", link: "https://github.com/oolong-sh" },
+      { icon: "bluesky", link: "https://bsky.app/profile/oolong.sh" },
+    ],
   },
 });
