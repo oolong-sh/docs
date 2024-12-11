@@ -51,4 +51,5 @@ export default defineConfig({
       { icon: "bluesky", link: "https://bsky.app/profile/oolong.sh" },
     ],
   },
+  ignoreDeadLinks: [/^https?:\/\/localhost/],
 });
