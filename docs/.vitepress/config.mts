@@ -7,17 +7,30 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "Home", link: "/" },
-      { text: "Guide", link: "/what-is-oolong" },
-      { text: "Examples", link: "/markdown-examples" },
+      { text: "Guide", link: "/guide/getting-started" },
+      { text: "Reference", link: "/reference/configuration-overview" },
+      { text: "Showcase", link: "/showcase" },
     ],
 
     sidebar: [
       {
         text: "Introduction",
         items: [
-          { text: "What is Oolong", link: "/what-is-oolong" },
-          { text: "Getting Started", link: "/getting-started" },
+          { text: "What is Oolong?", link: "/guide/what-is-oolong" },
+          { text: "Getting Started", link: "/guide/getting-started" },
+        ],
+      },
+      {
+        text: "Reference",
+        items: [
+          { text: "Configuration", link: "/reference/configuration-overview" },
+        ],
+      },
+      {
+        text: "Showcase",
+        items: [
+          { text: "Graph", link: "/graph-showcase" },
+          { text: "Editor", link: "/editor-showcase" },
         ],
       },
       {

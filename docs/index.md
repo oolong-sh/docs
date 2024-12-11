@@ -4,21 +4,18 @@ layout: home
 
 hero:
   name: "Oolong"
-  text: "Next Gen Notes"
-  tagline: My great project tagline
+  # text: "Next Gen Notes"
+  tagline: "Simple, Open Notes"
   actions:
     - theme: brand
       text: What is Oolong?
-      link: /what-is-oolong
+      link: /guide/what-is-oolong
     - theme: alt
       text: Getting Started
-      link: /getting-started
+      link: /guide/getting-started
     - theme: alt
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Configuration
+      link: /reference/configuration-overview
 
 features:
   - title: Feature A
