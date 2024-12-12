@@ -10,6 +10,7 @@ Oolong is a revolutionary note-taking and aggregation tool designed for thinkers
 
 ### Freedom and Flexibility
 
+<!-- FIX: other formats -->
 - **Open Standards, Open Possibilities**: Your notes, your way. Oolong uses pure Markdown and LaTeX formats, so you’ll never be locked into a single tool or vendor.
 - **Total Data Control**: Own your notes and your workflow. With self-hosting options and no proprietary formats, your ideas are yours forever.
 
